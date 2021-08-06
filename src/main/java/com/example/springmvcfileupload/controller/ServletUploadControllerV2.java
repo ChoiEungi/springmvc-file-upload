@@ -23,7 +23,7 @@ import java.util.Collection;
 @RequestMapping("/servlet/v2")
 public class ServletUploadControllerV2 {
 
-    @Value("$(file.dir}")
+    @Value("${file.dir}")
     private String fileDir;
 
     @GetMapping("/upload")
