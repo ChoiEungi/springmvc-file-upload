@@ -1,0 +1,28 @@
+.text-outer{
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  word-break: break-all;
+  border-bottom: 1px solid lightgray;
+}
+.text h4{
+  font-weight: 600;
+  font-size: 25px;
+  padding-bottom: 0px;
+}
+.text p{
+  margin-bottom: 20px;
+}
+.text iframe{
+  padding-bottom: 20px;
+}
+.ref-container{
+  display: flex;
+  flex-direction: column;
+}
+.program{
+  word-break: break-all;
+}

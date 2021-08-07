@@ -1,0 +1,133 @@
+.login-container{
+  width: 500px;
+  height: 800px;
+  align-items: center;
+  border: 1px solid green;
+  background-color:#fbfbfb;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px 3px lightgray;
+  text-align: center  ;   
+  justify-content: center;
+}
+
+.login-outer{
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: auto;
+  padding-top: 50px;
+  flex-wrap: wrap;
+  
+}
+
+.upper-counter{
+  
+}
+h1{
+  font-size: 30px;
+  text-align: center;
+}
+.header-container{
+  padding-top: 200px;
+  padding-bottom: 40px;
+  align-items: center ;
+  text-align: center;
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.input{
+  width: 300px;
+  height: 40px;
+  margin-bottom: 10px;
+  font-size: 19px;
+  border-radius: 8px;
+  border: 0.5px solid gray;
+  text-align: right;
+}
+body{
+  background-color:rgb(255,235,240,0.4);
+}
+.text-container{
+  text-align: left;
+  margin-top: -8px;
+  font-size: 9px;
+  font-weight: 100;
+}
+.text{
+  margin-top: 0px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.btn-container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#att-button{
+  width: 300px;
+  height: 40px;
+  border: 0.5px solid gray;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+#submit-button{
+  width: 300px;
+  height: 40px;
+  border: 0.5px solid gray;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+#submit-button:hover{
+  transition: color 0.5s ease-in-out;
+  background-color: #4b89dc;
+  color: #fbfbfb;
+  border: none;
+}
+#att-button:hover{
+  transition: color 0.5s ease-in-out;
+  background-color: #4b89dc;
+  color: #fbfbfb;
+  border: none;
+}
+#check-button{
+  width: 300px;
+  height: 40px;
+  border: 0.5px solid gray;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+#check-button:hover{
+  transition: color 0.5s ease-in-out;
+  background-color: #4b89dc;
+  color: #fbfbfb;
+  border: none;
+}
+.lower-container{
+  align-self:flex-end;
+  align-items: center;
+  padding-top: 150px;
+}
+.body{
+  font-family: 'Raleway', sans-serif;
+}
+.lower-text{
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+}
+#img{
+  width: 100px;
+
+}
+.lower-img-container{
+  padding-top: 5px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
