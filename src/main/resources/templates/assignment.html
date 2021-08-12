@@ -33,8 +33,10 @@
             <p class="text">Forgot your ID?</p>
           </div>
           <div class="btn-container">
-            <button id="att-button">Attach your assignment</button>
-            <button id="submit-button">SUBMIT</button>
+            <form th:action method="post" enctype="multipart/form-data">
+              <input id="att-button" type="file" multiple="multiple" name="attachFile">
+              <input type="submit" id="submit-button"></input>
+            </form>
             <button id="check-button">Check My Submission</button>
           </div>
           <div class="lower-container">
@@ -42,13 +44,15 @@
               From
             </div>
             <div class="lower-img-container">
-              <img id="img" src="https://www.ict-volunteer.site/img/gist_logo.JPEG" alt="gistnews">
+              <img id="img" src="https://www.ict-volunteer.site/img/gist_logo.jpg" alt="gistnews">
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <script>
+  </script>
   
 </body>
 
