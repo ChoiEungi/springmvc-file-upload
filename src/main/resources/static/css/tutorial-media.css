@@ -1,0 +1,27 @@
+@media(max-width:1400px){
+  .section-container-inner{
+    flex-direction: column;
+  }
+  .left-bar{
+    width: 800px;
+  }
+  .right-bar{
+    width: 800px;
+  } 
+  .index-container{
+    margin-bottom: 40px;
+  }
+  .body{
+    white-space:normal;
+  }
+  .inner-container{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .cut{
+    display: none;
+  }
+  p{
+    font-size: 15px;
+  }
+}

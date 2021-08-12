@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://www.ict-volunteer.site/css/assignment.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assginment submit</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+  </style>
+</head>
+
+<body>
+  <div class="back">
+
+  </div>
+  <div class="outer">
+    <div class="login-outer">
+      <div class="login-container">
+        <div class="upper-container">
+          <div class="header-container">
+            <h1>
+              Submit Assignment
+            </h1>
+          </div>
+          <div class="btn-container">
+            <form th:action method="post" enctype="multipart/form-data">
+              <input class="input" type="text" placeholder="write your name" style="text-align: center">
+              <input id="att-button" type="file" multiple="multiple" name="attachFile">
+              <input type="submit" id="submit-button"></input>
+            </form>
+            <button id="check-button">Check My Submission</button>
+          </div>
+          <div class="lower-container">
+            <div class="lower-text">
+              From
+            </div>
+            <div class="lower-img-container">
+              <img id="img" src="https://www.ict-volunteer.site/img/gist_logo.jpg" alt="gistnews">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+  </script>
+  
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+.day-container{
+  display: flex;
+}
+.day-box{
+  width: 120px;
+  border-right: 1px solid #d3dce6;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.day{
+  font-size: 15px;
+ 
+}
+.syllabus-container{
+  padding-left: 30px;
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: -5px;
+  flex-direction: column;
+}
+.title-container{
+}
+.section-title{
+  font-weight: 600;
+}
+.tesk-container{
+  padding-left: 40px;
+  margin-top: -20px;
+  
+}
+.tesk-list ul{
+  /* display: block; */
+  /* list-style: none; */
+  /* margin-block-start: 1em; */
+  /* margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px; */
+}
+.tesk-list ul li{
+  display: list-item;
+  list-style: none;
+}
+.tesk-list ul li span{
+  display: block;
+  padding-top: 5px;
+  font-size: 17px;
+  line-height: 20px;
+  color: #2F2F2F;
+  font-weight: 550;
+}
+.tesk-list ul li span:hover{
+  color: black;
+  font-weight: 700;
+}
+.indexed-container{
+  background-color: #fbfbfb;
+  border: 1px solid #d3dce6;
+  border-radius: 6px;
+  padding-bottom: 6px;
+}
+.day-border{
+  margin-top: 40px;
+}
+.week-container {
+  display: flex;
+  padding: 16px 24px;
+  border-bottom: 1px solid #d3dce6;
+}
+.week-submit-btn{
+  /* align-items: flex-end; */
+  /* justify-content: right; */
+  /* justify-content: space-between; */
+  margin-left: auto;
+}
+.submit-btn{
+  border-radius: 20px;
+  background-color: #4b89dc;
+  color: #fbfbfb;
+  border: none;
+  padding-left: 10px;
+  padding-right:10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.submit-btn:hover{
+  background-color: #fbfbfb;
+  color: #4b89dc;
+  border: 0.5px solid black;
+  transition: color 0.5s ease-in-out;
+}
+.week {
+  /* padding: 16px 24px; */
+  /* border-bottom: 1px solid #d3dce6; */
+  font-size: 16px;
+  position: relative;
+  font-weight: 600;
+  color: black;
+  line-height: 24px;
+  margin-bottom: 8px;
+  /* display: flex; */
+  margin-top: 0px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.nav-tab::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #0556f3;
+  border-radius: 10px 10px 0 0;
+  opacity: 0;
+}
