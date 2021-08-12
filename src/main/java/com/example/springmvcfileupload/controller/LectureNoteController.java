@@ -24,18 +24,22 @@ public class LectureNoteController {
 
     @GetMapping("/lecture-note/{id}")
     public ResponseEntity<Resource> downloadLectureNote(@PathVariable Long id) throws MalformedURLException {
-        UrlResource resource = new UrlResource("file:" + fileDir + "/lecture-note/lec" + id + ".pptx");
-        String contentDisposition = "attachment; filename=\"" + "lec"+ id + ".pptx\"";
+        UrlResource resource = new UrlResource("file:" + fileDir + "/lecture-note/lec" + id + ".pdf");
+        String contentDisposition = "attachment; filename=\"" + "lec"+ id + ".pdf\"";
         return ResponseEntity.ok()
                 .header(HttpHeaders.CONTENT_DISPOSITION, contentDisposition)
                 .body(resource);
 
     }
 
-//    @GetMapping("/source-code/{id}")
-//    public ResponseEntity<Resource> downloadLectureNote(@PathVariable Long id) throws MalformedURLException {
-//        UrlResource resource = new UrlResource("file:" + "/lecture-note/lec" + id);
-//
-//    }
+    @GetMapping("/source-code/{id}")
+    public ResponseEntity<Resource> downloadSourceCode(@PathVariable Long id) throws MalformedURLException {
+        UrlResource resource = new UrlResource("file:" + fileDir + "/source-code/lec" + id + ".ipynb");
+        String contentDisposition = "attachment; filename=\"" + "lec"+ id + ".ipynb\"";
+        return ResponseEntity.ok()
+                .header(HttpHeaders.CONTENT_DISPOSITION, contentDisposition)
+                .body(resource);
+
+    }
 
 }

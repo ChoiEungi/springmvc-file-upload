@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
-
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,15 +24,9 @@
               Submit Assignment
             </h1>
           </div>
-          <div class="input-container">
-            <input class="input" type="text" placeholder="ID">
-            <!-- <input class="input" type="text" placeholder="Password"> -->
-          </div>
-          <div class="text-contaier">
-            <p class="text">Forgot your ID?</p>
-          </div>
           <div class="btn-container">
             <form th:action method="post" enctype="multipart/form-data">
+              <input class="input" type="text" placeholder="write your name" style="text-align: center">
               <input id="att-button" type="file" multiple="multiple" name="attachFile">
               <input type="submit" id="submit-button"></input>
             </form>
